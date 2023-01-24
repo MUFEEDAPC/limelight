@@ -1,0 +1,83 @@
+/* $brand-orange: #f96d02;
+$open-sans: "Open Sans", sans-serif; */
+
+.testimonial-reel {
+  margin-bottom: 4rem !important;
+  margin-top: 4rem;}
+
+ .testimonial-reel .box{
+    position: relative;
+    margin-bottom: 30px;
+ }
+    .testimonial-reel .box .image {
+      margin: 0 auto -45px;
+      text-align: center;
+    }
+    .testimonial-reel .box .image img {
+        height: 130px;
+        margin: 0 auto;
+      }
+
+
+    .test-component {
+      background-color: #fff;
+      padding: 1rem 2.5rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      min-height: 200px;
+    }
+
+    .test-title {
+      font-family:"Open Sans", sans-serif;
+
+      color: #f96d02;
+      text-align: center;
+      margin-top: 3.3rem;
+      margin-bottom: 15px;
+    }
+
+    .test-content {
+      text-align: center;
+    }
+  
+
+  .slick-slide {
+    opacity: 0.3;
+    transition: opacity 0.3s;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.slick-cloned {
+      opacity: 0.3;
+      transition: opacity 0.3s;
+    }
+
+    .slick-current.slick-active {
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  
+
+    /* https://codepen.io/CoderBear/pen/KLNQjg */
+
+    .slick-next  {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        cursor: pointer;
+        /* bottom: 0 !important; */
+    }
+    .slick-prev  {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        cursor: pointer;
+        z-index:2;
+        /* bottom: 0 !important; */
+    }
+    .slick-dots{
+      display:flex;
+      padding: 0 50%;
+    }
+    .slick-dotted{
+        font-size: 12px;
+    }

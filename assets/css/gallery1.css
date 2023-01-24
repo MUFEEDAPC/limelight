@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+  
+  /* Responsive Image Utility Classes  */
+  
+  .bg-image {
+      background-color: rgb(240,240,240);
+    background-image: url('https://source.unsplash.com/kfSjyxAWhEc');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+  
+  .bg-1 {
+    background-image: url('/assets/img/service2/corporateevents/pexels-nicole-michalou-5779176.jpg'); 
+    background-position: 70% 50%; 
+  }
+  .bg-2 {
+    background-image: url('/assets/img/service2/birthdays/pexels-ibrahim-boran-903400.jpg'); 
+    background-position: 50% 50%; 
+  }
+ 
+  .bg-3 {
+    background-image: url('/assets/img/service2/weddings/pexels-emir-kaan-okutan-2403568.jpg'); 
+    background-position: 50% 50%; 
+  }
+  .bg-4 {
+    background-image: url('/assets/img/service2/family/pexels-askar-abayev-5638414.jpg'); 
+    background-position: 50% 80%; 
+  }
+  .bg-5 {
+    background-image: url('/assets/img/service2/birthdays/pexels-ivan-samkov-9628330.jpg'); 
+    background-position: 50% 60%; 
+  }
+  .bg-6 {
+    background-image: url('/assets/img/service2/corporateevents/pexels-pavel-danilyuk-6405769.jpg'); 
+    background-position: 50% 50%; 
+  }
+
+
+  .bg-7 {
+    background-image: url('/assets/img/service2/weddings/pexels-irina-iriser-916344.jpg'); 
+    background-position: 70% 50%; 
+  }
+  .bg-8 {
+    background-image: url("/assets/img/service2/family/pexels-august-de-richelieu-4262011.jpg"); 
+    background-position: 50% 50%; 
+  }
+  .bg-9 {
+    background-image: url('/assets/img/service2/weddings/pexels-muhamad-faizal-awal-5166466.jpg'); 
+    background-position: 50% 50%; 
+  }
+  .bg-10 {
+    background-image: url('/assets/img/service2/corporateevents/pexels-pavel-danilyuk-6405800.jpg'); 
+    background-position: 50% 50%; 
+  }
+  .bg-11 {
+    background-image: url("/assets/img/service2/birthdays/pexels-pavel-danilyuk-7180858.jpg"); 
+    background-position: 50% 80%; 
+  }
+  .bg-12 {
+    background-image: url('/assets/img/service2/family/pexels-cottonbro-studio-6185568.jpg'); 
+    background-position: 50% 60%; 
+  }
+  .bg-13 {
+    background-image: url('/assets/img/service2/weddings/pexels-sandro-crepulja-3352398.jpg'); 
+    background-position: 50% 60%; 
+  }
+
+
+  .bg-14 {
+    background-image: url('/assets/img/service2/corporateevents/pexels-rodnae-productions-6518877.jpg'); 
+    background-position: 70% 50%; 
+  }
+  .bg-15 {
+    background-image: url('/assets/img/service2/birthdays/pexels-vlada-karpovich-7099925.jpg'); 
+    background-position: 50% 50%; 
+  }
+  .bg-16 {
+    background-image: url('/assets/img/service2/family/pexels-nicole-michalou-5778899.jpg'); 
+    background-position: 50% 50%; 
+  }
+  .bg-17 {
+    background-image: url('/assets/img/service2/weddings/pexels-wendel-moretti-1730877.jpg'); 
+    background-position: 50% 50%; 
+  }
+  .bg-18 {
+    background-image: url('/assets/img/service2/birthdays/pexels-vlada-karpovich-7100335.jpg'); 
+    background-position: 50% 50%; 
+  }
+  /* Filterable Gallery Styles   */
+  
+  .filterable-gallery .bg-image {
+    padding-bottom: 100%;
+  }
+  
+  .filterable-gallery {
+    padding: 1rem;
+  }
+  .filterable-gallery [class*=col] {
+    padding: 0.3rem;
+  }
+  .hidden {display: none;}
+  
+  /* Filter navigation */
+  .portfolio-filter span {
+    /* text-transform: uppercase;  */
+    padding: 0.2rem;
+    cursor: pointer;
+  }
+  .portfolio-filter .active {
+    color: #ccc090    ;
+    text-decoration: underline;
+  }
+  
+  
+  
+  /* Demo Styling (no need to copy) */
+  
+  body {
+    font-family: 'Open Sans';
+  /*   background-color: rgb(245,245,245); */
+    /* padding: 5%; */
+    text-align: center;
+  }
+  
+  h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  
+  @media (max-width:426px){
+    .filterable-gallery{
+      padding:0rem;
+    }
+  }
